@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume product</title>
+    <style>
+        body {
+            background-color: rgba(210, 105, 30, 0.753);
+        }
+
+
+        .parent {
+            position: sticky;
+            border: 2px solid none;
+            height: 92vh;
+            width: 26vw;
+            padding-top: 40px;
+            margin-left: 30%;
+            background-color: white;
+            border-radius: 20px;
+        }
+
+        .image {
+            border: 2px solid none;
+            position: relative;
+            bottom: 7%;
+            border: 2px solid none;
+            height: 40vh;
+            width: 54.5vh;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            object-fit: cover;
+        }
+
+        .box {
+            position: relative;
+            letter-spacing: 4px;
+            margin-left: 5%;
+            font-size: 20px;
+            color: grey;
+           bottom: 4%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;      
+        }
+        .box1{
+            position: relative;
+            bottom: 5%;
+            font-size: 40px;
+            margin-left:5% ;
+        }
+        .box2{
+           position: relative;
+           bottom: 7%;
+           font-size: 18px;
+           color: grey;
+           margin-left: 5%;
+        }
+        .box3{
+            font-size: 40px;
+            position: relative;
+            bottom:9%;
+            margin-left: 5%;
+            color: green;
+        }
+        .box4{
+            position: relative;
+            color: white;
+            border: 2px solid none;
+            text-align: center;
+            font-size: 22px;
+            bottom: 10%;
+            left:10%;
+            border-radius: 11px;
+            background-color: darkgreen;
+            height: 5vh;
+            width: 20vw;
+        }
+        @media screen and (max-width:900px){
+            .image{
+                position: relative;
+                width: 232px;
+                height: 201px;
+                bottom: 8%;
+                object-fit: cover;
+            }
+            .box{
+                font-size: 16px;
+            }
+            .box2{
+                font-size: 18px;
+            }
+            .box1{
+                font-size: 28px;
+            }
+            .box3{
+               font-size: 31px;
+            }
+            .box4{
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <image class="image" src="perfume.png"></image>
+        <div class="box">PERFUME</div>
+        <h1 class="box1">Gabrielle Essence Eau De Parfum</h1>
+        <div class="box2">A floral,solar and voluptuous interpretation
+            composed by olivier polge, perfumer-creator for the house of CHANEL.
+        </div>
+        <h2 class="box3">$ 149.99</h2>
+        <div class="box4">Add to cart</div>
+
+    </div>
+</body>
+
+</html>
